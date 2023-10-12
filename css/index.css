@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.poem_outside{
+    width: 100vw;
+    height: 100vh;
+    background: url("../image/bg.png");
+    background-size: 100% 100%;
+    padding-top: 200px;
+}
+.poem_list{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.poem_list li{
+    list-style: none;
+    flex: 100%;
+    text-align: center;
+}
+.poem_list li a{
+    text-decoration: none;
+    color: #d5d5d5;
+    font-size: 25px;
+    font-weight: bold;
+}

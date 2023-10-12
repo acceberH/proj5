@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.poem_inside{
+    width: 100vw;
+    height: 900px;
+    padding-top: 20px;
+    background: url("../image/bg2.png");
+    background-size: 100% 100%;
+}
+.poem_inside ul{
+    width: 380px;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-right: 250px;
+}
+
+.poem_inside ul li{
+    color: #efefef;
+    font-size: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.poem_inside ul li:hover{
+    color: #d3d3d3;
+}
+h2{
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: #f1f1f1;
+}
+.suspension{
+    position: absolute;
+    width: 40vw;
+    height: 700px;
+    left: 15%;
+    top: 3%;
+    text-align: center;
+    display: none;
+    z-index: 2;
+    overflow: hidden;
+}
+.show{
+    position: absolute;
+    width: 40vw;
+    height: 700px;
+    left: 8%;
+    text-align: center;
+    top: 3%;
+    z-index: 2;
+    display: block;
+    overflow: hidden;
+}
+.activeImg{
+    width: 100%;
+    padding-top: 100px;
+    box-shadow: 0px 0px 20px 0px #3e8160;
+}
+.back{
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    width: 60px;
+    height: 30px;
+    border: 2px solid white;
+    text-align: center;
+    line-height: 30px;
+}
+.back a{
+    text-decoration: none;
+    color: white;
+}
+.back a:hover{
+    color: #e8e8e8;
+}
